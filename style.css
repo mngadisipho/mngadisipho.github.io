@@ -1,0 +1,89 @@
+
+
+
+body{
+    background-image: url("background.jpg");
+    background-size: cover;
+   
+}
+.btn-primary{
+    background-color: #f4511e;
+    border: none;
+}
+.btn-secondary{
+    border: none;
+}
+.btn-primary .btn-secondary{
+    display: inline-block;
+    cursor: pointer;
+    width: 171px;
+    height: 67px;   
+    width: 171px;
+    height: 61px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    display: flex;
+    top: 62px;
+    cursor: pointer;
+    transition: 0.5s;
+    border-radius: 15px;
+}
+.btn-primary:hover{
+    background-color: #D45E00;
+
+}
+span{
+    text-align: center;
+    margin: auto;
+    font-size: large;
+}
+h2{
+    text-align: center;
+    color: #D45E00;
+    top: 300px;
+    position: relative;
+    text-decoration: darkorange;
+    font-family: 'Spicy Rice', cursive;
+    font-size: 72px;
+}
+.btn-primary span{
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+.btn-primary span::after{
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    transition: 0.5s;
+}
+.btn-primary:hover span {
+    padding-right: 25px;
+}
+  
+.btn-primary:hover span:after {
+    opacity: 1;
+    right: 0;
+}
+.btn-secondary span{
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+.btn-secondary span::after{
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    transition: 0.5s;
+}
+.btn-secondary:hover span {
+    padding-right: 25px;
+}
+  
+.btn-secondary:hover span:after {
+    opacity: 1;
+    right: 0;
+}
